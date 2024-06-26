@@ -3,8 +3,8 @@ import React from "react";
 const DeleteConfirm = () => {
   return (
     <>
-      <label className="btn btn-primary" htmlFor="modal-1">
-        Open Modal
+      <label className="btn bg-red-500 w-full" htmlFor="modal-1">
+        Delete Account
       </label>
       <input className="modal-state" id="modal-1" type="checkbox" />
       <div className="modal">

@@ -2,15 +2,7 @@ import React, { useState } from "react";
 import DeleteConfirm from "../modal/delete_confirmation";
 
 const DeleteForm = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div className="mx-auto flex w-full max-w-sm flex-col gap-6 mt-32">
@@ -41,17 +33,19 @@ const DeleteForm = () => {
         </div>
         <div className="form-field pt-5">
           <div className="form-control justify-between">
-            <button
+            {/* <button
               onClick={openModal}
               type="button"
               className="btn bg-red-500 w-full"
+              htmlFor="modal-1"
             >
               Delete Account
-            </button>
+            </button> */}
+            <DeleteConfirm />
           </div>
         </div>
       </div>
-      {showModal && <DeleteConfirm closeModal={closeModal} />}
+      {/* {showModal && <DeleteConfirm closeModal={closeModal} />} */}
     </div>
   );
 };
