@@ -11,7 +11,6 @@ const HomePage = () => {
         <Card cardImg={"Delivo 1.png"} />
         <Card cardImg={"Delivo 2.png"} />
         <Card cardImg={"Delivo 3.png"} />
-        <Card cardImg={"Delivo 4.png"} />
       </div>
     </>
   );
