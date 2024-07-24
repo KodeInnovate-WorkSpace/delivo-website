@@ -9,8 +9,8 @@ const HomePage = () => {
       <div className="grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <Card cardImg={"Delivo 1.1.png"} />
         <Card cardImg={"Delivo 1.png"} />
-        <Card cardImg={"Delivo 2.png"} />
-        <Card cardImg={"Delivo 3.png"} />
+        <Card cardImg={"Delivo 2.webp"} />
+        <Card cardImg={"Delivo 3.webp"} />
       </div>
     </>
   );
