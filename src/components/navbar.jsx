@@ -15,10 +15,24 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="navbar-end">
-          <Link to="/deleteaccount">
-            <span className="navbar-item text-red-500">Delete Account</span>
-          </Link>
+
+        <div class="dropdown">
+          <label class="btn btn-solid-success mx-2" tabindex="0">
+            Menu
+          </label>
+          <div class="dropdown-menu dropdown-menu-left-bottom">
+            <a class="dropdown-item text-sm">About Us</a>
+            <div className="dropdown-divider" role="separator"></div>
+            <a tabindex="-1" class="dropdown-item text-sm">
+              Contact
+            </a>
+
+            <Link tabIndex="-1" to="/deleteaccount">
+              <span className="dropdown-item text-sm text-red-500">
+                Delete Account
+              </span>
+            </Link>
+          </div>
         </div>
       </nav>
     </header>
