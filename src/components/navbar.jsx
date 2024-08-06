@@ -7,7 +7,6 @@ const Navbar = () => {
       <nav className="navbar navbar-sticky">
         <div className="navbar-start">
           <Link to="/">
-            {/* <span >Logo</span> */}
             <img
               src="logo.svg"
               alt="Delivo App"

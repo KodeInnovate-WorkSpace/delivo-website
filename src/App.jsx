@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DeleteAccount from "./pages/delete_account.page";
 import HomePage from "./pages/home.page";
-import { Toaster } from "react-hot-toast";
 
 const myRouter = createBrowserRouter([
   {
@@ -17,8 +16,7 @@ const myRouter = createBrowserRouter([
 function App() {
   return (
     <>
-      <RouterProvider router={myRouter}>
-      </RouterProvider>
+      <RouterProvider router={myRouter}></RouterProvider>
     </>
   );
 }
