@@ -49,15 +49,22 @@ const Navbar = () => {
               <nav className="menu p-2 rounded-md mt-8">
                 <section className="menu-section">
                   <ul className="menu-items">
-                    <li className="menu-item text-lg font-semibold"> <Link to={"/"}>
-                      Home
-                    </Link></li>
-                    <li className="menu-item text-lg font-semibold"> <Link>
-                      Contact
-                    </Link></li>
-                    <li className="menu-item text-lg font-semibold"> <Link to="/deleteaccount">
-                      Delete Account
-                    </Link></li>
+                    <Link to={"/"}>
+                      <li className="menu-item text-lg font-semibold">
+                        Home
+                      </li>
+                    </Link>
+
+                    <Link>
+                      <li className="menu-item text-lg font-semibold">
+                        Contact
+                      </li>
+                    </Link>
+                    <Link to="/deleteaccount">
+                      <li className="menu-item text-lg font-semibold">
+                        Delete Account
+                      </li>
+                    </Link>
                   </ul>
                 </section>
               </nav>
