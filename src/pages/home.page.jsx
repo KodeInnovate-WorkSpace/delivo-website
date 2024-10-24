@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Card from "../components/card";
+import Footer from "../components/footer";
+import Faq from "../components/faq";
 
 const HomePage = () => {
   return (
@@ -23,6 +25,13 @@ const HomePage = () => {
           <Card cardImg={"Delivo 3.webp"} />
         </div>
       </div>
+
+      <div className="mx-4 lg:mx-44">
+        <h1 className="my-4 text:md lg:text-2xl font-bold">Frequently Asked Questions (FAQ)</h1>
+        <Faq />
+      </div>
+
+      <Footer />
     </>
   );
 };
