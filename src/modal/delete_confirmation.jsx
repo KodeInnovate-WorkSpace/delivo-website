@@ -6,7 +6,7 @@ const DeleteConfirm = () => {
   const [showModal, setShowModal] = useState(false);
 
   const onDelete = () => {
-    toast("Delete request sent", {
+    toast("Your account deletion request has been submitted. Your account will be deleted within 24 hours.", {
       style: {
         borderRadius: "10px",
       },
