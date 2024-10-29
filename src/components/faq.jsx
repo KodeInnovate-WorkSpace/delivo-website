@@ -32,7 +32,6 @@ const faqs = [
 const Faq = () => {
     return (
         <div className="accordion-group accordion-group-bordered">
-
             {
                 faqs.map((faq, index) => (
                     <div key={index} className="accordion">

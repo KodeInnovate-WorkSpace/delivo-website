@@ -16,7 +16,6 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end">
-          <Link className="navbar-item lg:text-lg hidden lg:block">Get the app</Link>
           <Link className="navbar-item lg:text-lg hidden lg:block">Contact</Link>
           <div className="dropdown-container">
             <div className="dropdown">
