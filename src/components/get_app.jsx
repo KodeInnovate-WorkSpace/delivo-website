@@ -18,14 +18,7 @@ const GetApp = () => {
                     <p className="text-lg mb-4">Discover the best food, drinks & grocery in Mumbra</p>
 
                     {/* Call-to-Action Buttons */}
-                    <div className="flex flex-row gap-4">
-                        <Link className="cursor-pointer w-full sm:w-48">
-                            <img
-                                src="app_store.webp"
-                                alt="App Store"
-                                className="w-full object-contain"
-                            />
-                        </Link>
+                    <div className="flex flex-row gap-4">                        
                         <Link
                             to="https://play.google.com/store/apps/details?id=com.delivoapp.app&hl=en_IN"
                             className="cursor-pointer w-full sm:w-48"
@@ -33,6 +26,13 @@ const GetApp = () => {
                             <img
                                 src="GetItOnGooglePlay_Badge_Web_color_English.png"
                                 alt="Play Store"
+                                className="w-full object-contain"
+                            />
+                        </Link>
+                        <Link className="cursor-pointer w-full sm:w-48">
+                            <img
+                                src="app_store.webp"
+                                alt="App Store"
                                 className="w-full object-contain"
                             />
                         </Link>

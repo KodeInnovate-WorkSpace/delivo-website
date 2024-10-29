@@ -4,11 +4,7 @@ import React from 'react'
 const faqs = [
     {
         "title": "Which areas does Delivo deliver to?",
-        "content": "Delivo delivers to specific postal codes: 400613 and 400612. Please ensure your delivery address falls within these service areas."
-    },
-    {
-        "title": "How much does delivery cost?",
-        "content": "Delivery fees may vary. The exact fee will be displayed at checkout based on your location and order details."
+        "content": "Delivo delivers to specific postal codes: 421204 and 400612. Please ensure your delivery address falls within these service areas."
     },
     {
 

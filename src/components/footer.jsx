@@ -26,11 +26,19 @@ const Footer = () => {
                         <span className="font-bold">Address:</span> S.D Garden, Jilani Park, Mumbra-400612
                     </p>
                     <p className="mb-2">
-                        <span className="font-bold">Phone:</span> +91 9326500602
+                        <span className="font-bold">Phone: </span>
+                        <a href="tel:+919326500602">
+                            +91 9326500602
+                        </a>
                     </p>
+
                     <p className="mb-2">
-                        <span className="font-bold">Email:</span> info@kodeinnovate.in
+                        <span className="font-bold">Email: </span>
+                        <a href="mailto:info@kodeinnovate.in" >
+                            info@kodeinnovate.in
+                        </a>
                     </p>
+
                 </div>
 
                 {/* Follow Us */}
