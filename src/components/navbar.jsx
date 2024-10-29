@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 const Navbar = () => {
+
   return (
     <header>
       <nav className="navbar navbar-sticky">
@@ -12,6 +13,7 @@ const Navbar = () => {
               alt="Delivo App"
               className="navbar-item w-24 md:w-28 lg:w-32"
             />
+
           </Link>
         </div>
 
