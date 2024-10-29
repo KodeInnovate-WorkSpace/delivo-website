@@ -19,7 +19,7 @@ const HomePage = () => {
 
         <div className="flex items-center justify-center flex-col relative z-10">
           <h1 className="text-5xl lg:text-6xl text-white font-bold">Delivo</h1>
-          <h2 className="text-sm lg:text-4xl text-white font-bold">Discover the best food, drinks & grocery in Mumbra</h2>
+          <h2 className="text-3xl px-4 text-center lg:text-4xl text-white font-bold">Discover the best food, drinks & grocery in Mumbra</h2>
         </div>
       </div>
 
