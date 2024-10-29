@@ -4,6 +4,7 @@ import Card from "../components/card";
 import Footer from "../components/footer";
 import Faq from "../components/faq";
 import GetApp from "../components/get_app";
+import MarqueeSection from "../components/marque_section";
 
 const HomePage = () => {
   return (
@@ -37,6 +38,7 @@ const HomePage = () => {
           <Card cardImg={"Delivo 3.webp"} />
         </div>
         <GetApp />
+        <MarqueeSection />
 
         {/* faq section */}
         <div className="mt-16 mx-4 lg:mx-44">

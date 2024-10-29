@@ -12,10 +12,10 @@ const Footer = () => {
                         <Link>About</Link>
                     </ul>
                     <ul className="space-y-2">
-                        <Link>Privacy</Link>
+                        <Link to={"https://kodeinnovate-workspace.github.io/delivo-policy/delivo_app_privacy_policy.html"}>Privacy</Link>
                     </ul>
                     <ul className="space-y-2">
-                        <Link>Terms</Link>
+                        <Link to={"https://kodeinnovate-workspace.github.io/delivo-policy/delivo_app_terms_and_conditions.html"}>Terms</Link>
                     </ul>
                 </div>
 
