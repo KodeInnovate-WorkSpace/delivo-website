@@ -6,7 +6,7 @@ const GetApp = () => {
 
         <div className="flex items-center justify-center py-8 px-6 lg:px-0" >
             {/* Card Layout */}
-            <div className="flex flex-col md:flex-row items-center">
+            <div className="flex flex-col md:flex-row items-center lg:gap-16">
                 {/* Left Image */}
                 <div className="w-full md:w-1/2 hidden lg:block">
                     <img src="sample.png" alt="App Preview" className="w-[24rem] h-auto object-cover" />
@@ -18,7 +18,7 @@ const GetApp = () => {
                     <p className="text-lg mb-4">Discover the best food, drinks & grocery in Mumbra</p>
 
                     {/* Call-to-Action Buttons */}
-                    <div className="flex flex-row gap-4">                        
+                    <div className="flex flex-row gap-4">
                         <Link
                             to="https://play.google.com/store/apps/details?id=com.delivoapp.app&hl=en_IN"
                             className="cursor-pointer w-full sm:w-48"
