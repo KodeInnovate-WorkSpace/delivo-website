@@ -4,34 +4,26 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="bg-mainColor py-10 mt-10">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-start md:justify-items-center">
                 {/* Learn More */}
-                <div >
-                    <h2 className="text-xl font-bold mb-4">
-                        Learn More
-                    </h2>
+                <div className="text-left md:text-center">
+                    <h2 className="text-xl font-bold mb-4">Learn More</h2>
                     <ul className="space-y-2">
-                        <Link>
-                            About
-                        </Link>
+                        <Link>About</Link>
                     </ul>
                     <ul className="space-y-2">
-                        <Link>
-                            Privacy
-                        </Link>
+                        <Link>Privacy</Link>
                     </ul>
                     <ul className="space-y-2">
-                        <Link>
-                            Terms
-                        </Link>
+                        <Link>Terms</Link>
                     </ul>
                 </div>
 
                 {/* Contact */}
-                <div >
+                <div className="text-left md:text-center">
                     <h2 className="text-xl font-bold mb-4">Contact</h2>
                     <p className="mb-2">
-                        <span className="font-bold ">Address:</span> S.D Garden, Jilani Park, Mumbra-400612
+                        <span className="font-bold">Address:</span> S.D Garden, Jilani Park, Mumbra-400612
                     </p>
                     <p className="mb-2">
                         <span className="font-bold">Phone:</span> +91 9326500602
@@ -42,7 +34,7 @@ const Footer = () => {
                 </div>
 
                 {/* Follow Us */}
-                <div >
+                <div className="text-left md:text-center">
                     <h2 className="text-xl font-bold mb-4">Follow Us</h2>
                     <ul className="flex space-x-4 mt-2">
                         <li className="transform transition-transform duration-300 hover:-translate-y-1">
@@ -65,10 +57,7 @@ const Footer = () => {
             </div>
 
             {/* Powered by Kodeinnovate Solutions */}
-            <div
-
-                className="text-center mt-10 text-sm lg:text-[1rem]"
-            >
+            <div className="text-center mt-10 text-sm lg:text-[1rem]">
                 <a href="https://kodeinnovate.in/">
                     Powered by Kodeinnovate Solutions Private Limited
                 </a>
