@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
-        <footer className="bg-mainColor py-10 mt-10">
+        <footer className="bg-mainColor py-10 ">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-start md:justify-items-center">
                 {/* Learn More */}
                 <div className="text-left md:text-center">
