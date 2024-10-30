@@ -29,7 +29,7 @@ const GetApp = () => {
                                 className="w-full object-contain"
                             />
                         </Link>
-                        <Link className="cursor-pointer w-full sm:w-48">
+                        <Link to="https://apps.apple.com/app/delivo-app-grocery-delivery/id6737229220" className="cursor-pointer w-full sm:w-48">
                             <img
                                 src="app_store.webp"
                                 alt="App Store"
