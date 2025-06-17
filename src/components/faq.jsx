@@ -3,8 +3,8 @@ import React from 'react'
 
 const faqs = [
     {
-        "title": "Which areas does Delivo deliver to?",
-        "content": "Delivo delivers to specific postal codes: 421204 and 400612. Please ensure your delivery address falls within these service areas."
+        "title": "Which areas does Bakalaa deliver to?",
+        "content": "Bakalaa delivers to specific postal codes: 421204 and 400612. Please ensure your delivery address falls within these service areas."
     },
     {
 
@@ -21,7 +21,7 @@ const faqs = [
     },
     {
         "title": "Can I cancel my order after placing it?",
-        "content": "No, once an order is placed on the Delivo app, it cannot be canceled. This policy ensures a smooth and efficient delivery process. In exceptional cases, such as unavoidable circumstances, please contact our customer service team at +91 9326500602 immediately. Requests will be reviewed on a case-by-case basis."
+        "content": "No, once an order is placed on the Bakalaa app, it cannot be canceled. This policy ensures a smooth and efficient delivery process. In exceptional cases, such as unavoidable circumstances, please contact our customer service team at +91 9326500602 immediately. Requests will be reviewed on a case-by-case basis."
     },
 ]
 

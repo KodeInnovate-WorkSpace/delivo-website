@@ -12,7 +12,7 @@ const Card = ({cardImg}) => {
           <button className="btn-success btn">Learn More</button>
         </div>
       </div> */}
-      <img src={cardImg} alt="Delivo" />
+      <img src={cardImg} alt="Bakalaa" />
     </div>
   );
 };

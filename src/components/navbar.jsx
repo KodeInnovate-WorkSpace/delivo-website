@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className="navbar-start">
           <Link to="/">
             <img
-              src="logo.svg"
-              alt="Delivo App"
+              src="logobk.svg"
+              alt="Bakalaa App"
               className="navbar-item w-24 md:w-28 lg:w-32"
             />
 
@@ -18,7 +18,6 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end">
-          <Link className="navbar-item lg:text-lg hidden lg:block">Contact</Link>
           <div className="dropdown-container">
             <div className="dropdown">
               <label className="navbar-item lg:text-lg hidden lg:flex cursor-pointer px-0" tabIndex="0">
@@ -39,8 +38,8 @@ const Navbar = () => {
               <div className="flex items-center justify-between -mt-8">
                 <Link to="/">
                   <img
-                    src="logo.svg"
-                    alt="Delivo App"
+                    src="logobk.svg"
+                    alt="Bakalaa App"
                     className="navbar-item w-24 md:w-28 lg:w-32"
                   />
                 </Link>
@@ -53,12 +52,6 @@ const Navbar = () => {
                     <Link to={"/"}>
                       <li className="menu-item text-lg font-semibold">
                         Home
-                      </li>
-                    </Link>
-
-                    <Link>
-                      <li className="menu-item text-lg font-semibold">
-                        Contact
                       </li>
                     </Link>
                     <Link to="/deleteaccount">

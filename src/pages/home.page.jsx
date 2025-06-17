@@ -1,6 +1,4 @@
-import React from "react";
 import Navbar from "../components/navbar";
-import Card from "../components/card";
 import Footer from "../components/footer";
 import Faq from "../components/faq";
 import GetApp from "../components/get_app";
@@ -19,24 +17,13 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
 
         <div className="flex items-center justify-center flex-col relative z-10">
-          <h1 className="text-5xl lg:text-6xl text-white font-bold">Delivo</h1>
+          <h1 className="text-5xl lg:text-6xl text-white font-bold">Bakalaa</h1>
           <h2 className="text-3xl px-4 text-center lg:text-4xl text-white font-bold">Discover the best food, drinks & grocery in Mumbra</h2>
         </div>
       </div>
 
-
-
       {/* Main Content */}
       <div className="container mx-auto py-8">
-
-
-        {/* Card Grid */}
-        {/* <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <Card cardImg={"Delivo 1.1.png"} />
-          <Card cardImg={"Delivo 1.png"} />
-          <Card cardImg={"Delivo 2.webp"} />
-          <Card cardImg={"Delivo 3.webp"} />
-        </div> */}
         
         <GetApp />
         <MarqueeSection />
@@ -47,8 +34,6 @@ const HomePage = () => {
           <Faq />
         </div>
       </div>
-
-
 
       <Footer />
     </>

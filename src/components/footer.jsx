@@ -1,6 +1,7 @@
-import React from "react";
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import  {privacyURL,termsURL,aboutURL}  from '../utils/urls';
+
 const Footer = () => {
     return (
         <footer className="bg-mainColor py-10 ">
@@ -9,13 +10,14 @@ const Footer = () => {
                 <div className="text-left md:text-center">
                     <h2 className="text-xl font-bold mb-4">Learn More</h2>
                     <ul className="space-y-2">
-                        <Link>About</Link>
+                        <Link to={aboutURL}>About</Link>
                     </ul>
                     <ul className="space-y-2">
-                        <Link to={"https://kodeinnovate-workspace.github.io/delivo-policy/delivo_app_privacy_policy.html"}>Privacy</Link>
+                        <Link to={privacyURL}>Privacy</Link>
+                   
                     </ul>
                     <ul className="space-y-2">
-                        <Link to={"https://kodeinnovate-workspace.github.io/delivo-policy/delivo_app_terms_and_conditions.html"}>Terms</Link>
+                        <Link to={termsURL}>Terms</Link>
                     </ul>
                 </div>
 
@@ -51,7 +53,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className="transform transition-transform duration-300 hover:-translate-y-1">
-                            <Link to={"https://www.instagram.com/delivo.app/"}>
+                            <Link to={"https://www.instagram.com/Bakalaa.app/"}>
                                 <FaInstagram className="text-2xl" />
                             </Link>
                         </li>
