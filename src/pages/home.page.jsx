@@ -7,8 +7,6 @@ import MarqueeSection from "../components/marque_section";
 const HomePage = () => {
   return (
     <>
-      <Navbar />
-
       {/* Banner Section */}
       <div
         className="w-full h-[26rem] bg-cover bg-center bg-gray-200 flex items-center justify-center lg:h-[35rem] relative"
@@ -34,8 +32,6 @@ const HomePage = () => {
           <Faq />
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };
